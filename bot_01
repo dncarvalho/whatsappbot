@@ -10,18 +10,17 @@ driver.get('https://web.whatsapp.com/') #abre o site Whatsapp Web
 time.sleep(15) #da um sleep de 15 segundos, tempo para scannear o QRCODE
 
 #Contatos/Grupos - Informar o nome(s) de Grupos ou Contatos que serao enviadas as mensagens
-contatos = ['Grupo Teste'.'[MENTORIA] EMBAKEEP'
+contatos = ['Grupo Teste'.'Contato Teste'
             ]
 
 #Mensagem - Mensagem que sera enviada
 mensagem = 'Pessoal boa tarde, tudo bem ? '
-mensagem2 = 'Finalizamos mais um mês de faturamento e como o intuito é entregar melhores resultados/análises para vocês, precisamos muito que preencham/atualizem a planilha de faturamento ( últimos 3 meses de faturamento) . Vou colocá -las aqui abaixo: Do faturamento, pode colocar o consolidado das contas
-'
+mensagem2 = 'Mensagem 2 teste'
 
 
 
 #Midia = imagem, pdf, documento, video (caminho do arquivo, lembrando que mesmo no windows o caminho deve ser passado com barra invertida */* desde a raiz)
-midia = "C:/Users/Danilo Carvalho/Desktop/TESTE/Controle-Faturamento-Macro.xlsx"
+midia = "Caminho do arquivo"
 
 #Funcao que pesquisa o Contato/Grupo
 def buscar_contato(contato):
